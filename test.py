@@ -13,6 +13,3 @@ def human_read_format(size):
 
 def get_files_sizes():
     return '\n'.join([i + ' ' + human_read_format(os.path.getsize(i)) for i in os.listdir() if os.path.isfile(i)])
-
-
-S
